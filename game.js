@@ -8,7 +8,7 @@ $(document).keypress(function()
 {
     if(!start)
     {
-        $(".level-title").text("Level "+level);
+        $("#level-title").text("Level "+level);
         nextSequence();
         start=true;
     }
